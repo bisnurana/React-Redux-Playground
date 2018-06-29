@@ -11,10 +11,12 @@ class UsersList extends Component {
   }
 
   render() {
-    return (<div>
-          <h2>User Lists</h2>
-          <ul>{this.renderUser()}</ul>
-                </div>
+    return (
+      <div>
+        <h2 >User Lists</h2>
+        <ul>{this.renderUser()}
+        </ul>
+      </div>
     );
   }
 }
