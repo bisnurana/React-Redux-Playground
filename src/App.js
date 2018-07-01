@@ -10,7 +10,6 @@ class App extends Component {
       <Switch>
         <Route path="/" exact component={Main} />
         <Route path="/survey" exact component={Survey} />
-
       </Switch>
     );
   }
